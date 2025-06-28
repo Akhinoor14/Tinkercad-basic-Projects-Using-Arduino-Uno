@@ -19,6 +19,9 @@ ESE (Energy Science and Engineering), KUET
 - LEDs connected to digital pins D2–D6 via 220Ω resistors
 - Blinking logic controlled by analog voltage level from potentiometer
 
+🖼️ **Circuit Diagram:**  
+![circuit](circuit.png)
+
 ## 🔗 Simulation
 [🔗 https://www.tinkercad.com/things/c3b3O8IGfQV-01-led-pattern] 
 
