@@ -4,7 +4,7 @@ This project uses a potentiometer to control the blinking pattern of 5 LEDs base
 
 ## 👨‍🎓 Project by:
 Md Akhinoor Islam  
-ESE (Energy Science and Engineering) student, KUET
+ESE (Energy Science and Engineering), KUET
 
 ## 🔧 Components Used
 - Arduino UNO

@@ -1,7 +1,7 @@
 /*
  * Project: LED Pattern Project with Potentiometer
  * Author: Md Akhinoor Islam
- * Student, ESE (Energy Science and Engineering), KUET
+ * ESE (Energy Science and Engineering), KUET
  * Description: 5 LEDs blink based on analog voltage level from a potentiometer
  */
 
