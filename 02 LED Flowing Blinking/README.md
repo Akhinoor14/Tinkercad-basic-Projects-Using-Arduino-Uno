@@ -58,7 +58,7 @@ Each LED is turned on, waits 300ms, turns off, waits 100ms, then moves to the ne
 - `README.md` → This file  
 - `circuit.png` → Your Tinkercad screenshot  
 - `code/led-sequential.ino` → Arduino source code
-
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 ---
 
 ## ✅ Status

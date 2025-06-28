@@ -56,7 +56,7 @@ The servo rotates from 0° to 180° and then back to 0°, smoothly and continuou
 - `README.md` → Project documentation  
 - `code/servo-control.ino` → Arduino source code  
 - `circuit.png` → Tinkercad circuit snapshot  
-
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 ---
 
 ## ✅ Project Status

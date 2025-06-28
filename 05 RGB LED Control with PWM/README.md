@@ -58,7 +58,7 @@ The Arduino cycles through red → green → blue by gradually fading one LED ou
 - `README.md` → This documentation  
 - `code/rgb-led-pwm.ino` → Arduino code  
 - `circuit.png` → Tinkercad screenshot  
-
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 ---
 
 ## ✅ Project Status

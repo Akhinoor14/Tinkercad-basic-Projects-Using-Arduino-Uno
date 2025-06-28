@@ -56,7 +56,7 @@ Each LED is individually controlled to display red → green → blue in sequenc
 - `README.md` → Documentation  
 - `code/neopixel-strip.ino` → Arduino source code  
 - `circuit.png` → Circuit diagram screenshot  
-
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 ---
 
 ## ✅ Project Status

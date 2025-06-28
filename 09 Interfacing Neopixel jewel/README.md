@@ -47,7 +47,7 @@ ESE (Energy Science and Engineering), KUET
 ## 📂 Folder Contents
 
 - `README.md` → Project overview & presentation  
-- `details.md` → Circuit explanation & code breakdown  
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 - `code/neopixel-jewel.ino` → Arduino source code  
 - `circuit.png` → Simulation image  
 

@@ -57,7 +57,7 @@ The sensor sends out a high-frequency sound wave via **Trig**, and listens for i
 - `README.md` → Project documentation  
 - `code/ultrasonic-distance.ino` → Arduino source code  
 - `circuit.png` → Tinkercad screenshot  
-
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 ---
 
 ## ✅ Project Status

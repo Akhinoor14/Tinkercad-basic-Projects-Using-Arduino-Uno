@@ -65,7 +65,7 @@ The potentiometer sends analog voltage to the ATtiny85's pin A3 (PB3). This valu
 - `README.md` → Project documentation  
 - `circuit.png` → Circuit image from Tinkercad  
 - `code/attiny-led.ino` → Arduino code for ATtiny85  
-
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 ---
 
 ## ✅ Project Status

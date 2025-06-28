@@ -25,6 +25,14 @@ ESE (Energy Science and Engineering), KUET
 ## 🔗 Simulation
 [🔗 https://www.tinkercad.com/things/c3b3O8IGfQV-01-led-pattern] 
 
+## 📂 Folder Contents
+
+- `README.md` → This file  
+- `circuit.png` → Your Tinkercad screenshot  
+- `code/led-sequential.ino` → Arduino source code
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
+---
+
 ## 💡 Learning Highlights
 - Analog to digital conversion (ADC) with A0
 - Using potentiometer as analog input

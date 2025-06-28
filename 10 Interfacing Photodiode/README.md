@@ -47,7 +47,7 @@ ESE (Energy Science and Engineering), KUET
 ## 📂 Folder Contents
 
 - `README.md` → Project description  
-- `details.md` → Circuit + line-by-line explanation  
+- `Code & Circuit Explanation(for beginner).md` → Circuit + line-by-line explanation  
 - `code/photo-diode.ino` → Arduino sketch  
 - `circuit.png` → Simulation screenshot  
 

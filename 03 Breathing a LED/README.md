@@ -55,7 +55,7 @@ LED brightness increases from 0 to 255 and then decreases back to 0, creating a 
 - `README.md` → this file  
 - `code/breathing-led.ino` → Arduino source code  
 - `circuit.png` → screenshot of your Tinkercad simulation  
-
+- `Code & Circuit Explanation(for beginner).md` → Circuit explanation & code breakdown  
 ---
 
 ## ✅ Project Status
