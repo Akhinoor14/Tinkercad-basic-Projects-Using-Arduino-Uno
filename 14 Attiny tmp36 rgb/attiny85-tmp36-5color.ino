@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 /*
  * Project 14: TMP36 + ATtiny85 + RGB LED + DIP Power Switch
  * Author: Md Akhinoor Islam
@@ -11,8 +9,6 @@ const int greenPin = 1;  // PB1 → Pin 6
 const int bluePin  = 4;  // PB4 → Pin 3
 const int tempPin  = A1; // PB2 → Pin 7 (TMP36 analog input)
 
-const float Vcc = 3.0; // Supply voltage, change if different
-
 float temperature;
 
 void setup() {
@@ -23,7 +19,7 @@ void setup() {
 
 void loop() {
   int raw = analogRead(tempPin);
-  float voltage = raw * (Vcc / 1023.0);           // TMP36 powered by Vcc
+  float voltage = raw * (3.0 / 1023.0);           // TMP36 powered by 3V coin cell
   temperature = (voltage - 0.5) * 100.0;          // TMP36 voltage → °C
 
   // Map temperature ranges to 5 distinct color zones
@@ -47,20 +43,7 @@ void loop() {
 }
 
 void setColor(int r, int g, int b) {
-  // Ensure values are within 0-255
-  r = constrain(r, 0, 255);
-  g = constrain(g, 0, 255);
-  b = constrain(b, 0, 255);
-
-  // যদি RGB LED কমন ক্যাথোড হয় (সাধারণত তাই হয়), analogWrite(pin, value) ঠিক আছে।
-  // যদি কমন অ্যানোড হয়, analogWrite(pin, 255-value) দিতে হবে。
-  // নিচের কোড কমন ক্যাথোডের জন্য:
-  analogWrite(redPin, r);    // PWM: PB0
-  analogWrite(greenPin, g);  // PWM: PB1
-  analogWrite(bluePin, b);   // PWM: PB4
-
-  // যদি LED কমন অ্যানোড হয়, তাহলে নিচের লাইনগুলো ব্যবহার করুন:
-  // analogWrite(redPin, 255 - r);
-  // analogWrite(greenPin, 255 - g);
-  // analogWrite(bluePin, 255 - b);
+  analogWrite(redPin, r);
+  analogWrite(greenPin, g);
+  analogWrite(bluePin, b);
 }
