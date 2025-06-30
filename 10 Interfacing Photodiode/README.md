@@ -28,7 +28,7 @@ ESE (Energy Science and Engineering), KUET
 | Photodiode –     | A0 via resistor → GND | Voltage divider setup    |
 
 🖼️ **Circuit Diagram**  
-![circuit](circuit.png)
+![circuit](Circuit.png)
 
 🔗 **Tinkercad Simulation**  
 [🔗 Click to View](https://www.tinkercad.com/things/5uG3RNVzWWe-10-interfacingphotodiode)
