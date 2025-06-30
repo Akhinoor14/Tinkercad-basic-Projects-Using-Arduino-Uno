@@ -30,7 +30,7 @@ ESE (Energy Science and Engineering), KUET
 | Cathode   | GND         | Common cathode connection |
 
 🖼️ **Circuit Diagram**  
-![circuit](circuit.png)
+![circuit](Circuit.png)
 
 🔗 **Tinkercad Simulation:**  
 [🔗 Click to View](https://www.tinkercad.com/things/kepNW7iwRmS-05-rgb-led-control-with-pwm)

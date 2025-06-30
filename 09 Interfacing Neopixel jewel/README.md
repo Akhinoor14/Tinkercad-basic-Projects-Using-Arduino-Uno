@@ -28,7 +28,7 @@ ESE (Energy Science and Engineering), KUET
 | GND       | GND          | Ground connection   |
 
 🖼️ **Circuit Diagram**  
-![circuit](circuit.png)
+![circuit](Circuit.png)
 
 🔗 **Tinkercad Simulation**  
 [🔗 Click to View](https://www.tinkercad.com/things/8oz9T9aag1W-09-neopixel-jewel)

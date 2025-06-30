@@ -27,7 +27,7 @@ ESE (Energy Science and Engineering), KUET
 - Breadboard used for easy prototyping
 
 🖼️ **Circuit Diagram**  
-![circuit](circuit.png)
+![circuit](Circuit.png)
 
 🔗 **Live Simulation:**  
 [🔗 Tinkercad Project](https://www.tinkercad.com/things/aBBDE8W7Qpl-03-breathing-led)

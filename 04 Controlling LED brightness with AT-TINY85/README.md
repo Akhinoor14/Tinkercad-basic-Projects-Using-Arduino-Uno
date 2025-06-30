@@ -37,7 +37,7 @@ ESE (Energy Science and Engineering), KUET
   – 3V Battery → VCC & GND pins of ATtiny85
 
 🖼️ **Circuit Diagram:**  
-![circuit](circuit.png)
+![circuit](Circuit.png)
 
 🔗 **Tinkercad Simulation:**  
 [🔗 Click to View](https://www.tinkercad.com/things/jBYdqVo95Ea-04-controlling-led-brightness-with-at-tiny85)

@@ -30,7 +30,7 @@ ESE (Energy Science and Engineering), KUET
 Each LED is connected in series with a 220Ω resistor and goes to GND.
 
 🖼️ **Circuit Diagram:**  
-![circuit](circuit.png)
+![Circuit](Circuit.png)
 
 🔗 **Tinkercad Simulation:**  
 [🔗 View Live](https://www.tinkercad.com/things/6ulx8HV3fon-02-led-blinking)

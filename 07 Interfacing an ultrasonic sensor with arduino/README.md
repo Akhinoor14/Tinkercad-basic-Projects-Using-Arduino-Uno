@@ -29,7 +29,7 @@ ESE (Energy Science and Engineering), KUET
 | Echo        | D10         | Echo Response     |
 
 🖼️ **Circuit Diagram**  
-![circuit](circuit.png)
+![circuit](Circuit.png)
 
 🔗 **Tinkercad Simulation**  
 [🔗 Click to View](https://www.tinkercad.com/things/cCuOhTyFwlL-07-ultrasonic-sensor-interfacing)

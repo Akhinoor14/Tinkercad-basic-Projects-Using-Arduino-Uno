@@ -28,7 +28,7 @@ ESE (Energy Science and Engineering), KUET
 | Orange/Yellow | D9      | Signal (PWM Input) |
 
 🖼️ **Circuit Diagram**  
-![circuit](circuit.png)
+![circuit](Circuit.png)
 
 🔗 **Tinkercad Simulation**  
 [🔗 Click to View](https://www.tinkercad.com/things/0DGu9rY1BEx-06-interfacing-servo-motor-with-arduino)
