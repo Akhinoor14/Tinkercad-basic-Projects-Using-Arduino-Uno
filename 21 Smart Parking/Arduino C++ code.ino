@@ -21,14 +21,16 @@ void setup() {
   S1.attach(9); // entryServoPin
   S2.attach(10); // exitServoPin
 
-  S1.write(pos);  // Closed
-  S2.write(pos);   // Closed
+  S1.write(0);  // Closed
+  S2.write(0);   // Closed
 
   // IR Sensor Pins
-  pinMode(IR_entry, INPUT); // entryIR
-  pinMode(IR_exit, INPUT); // exitIR
-  pinMode(IR_Slot1, INPUT); // slot1IR
-  pinMode(IR_Slot2, INPUT); // slot2IR
+  pinMode(6, INPUT); // entryIR
+  pinMode(13, INPUT); // exitIR
+  pinMode(7, INPUT); // slot1IR
+  pinMode(8, INPUT); // slot2IR
+
+
     // Initial LCD message
   lcd.begin(16, 2);
   lcd.print("Smart Parking");
@@ -36,7 +38,6 @@ lcd.setCursor(0, 1);
   lcd.print("System Ready");    
   delay(2000);
   lcd.clear();
-  lcd.print("Waiting for IR");
     lcd.setCursor(0, 0);
     lcd.print("Slot 1: Free");
     lcd.setCursor(0, 1);
@@ -50,31 +51,49 @@ void loop() {
   {
     lcd.setCursor(0, 0);
     lcd.print("Slot 1: Occupied");
-  
-  } else {
-    lcd.setCursor(0, 0);
-    lcd.print("Slot 1: Free "); 
-  }
+    delay(3000); // Delay to allow reading
+    S1.write(90);  // Open gate for Slot 1
+    delay(2000);   // Keep gate open for 2 seconds 
+    S1.write(0);   // Close gate
+
+  }     
+    else {
+        lcd.setCursor(0, 0);
+        lcd.print("Slot 1: Free   "); // Clear previous message
+        lcd.clear();
+    }
   if (digitalRead(IR_Slot2) == HIGH)
   {
     lcd.setCursor(0, 1);
     lcd.print("Slot 2: Occupied");
-   
-  } else {
+    delay(3000); // Delay to allow reading
+    S2.write(90);  // Open gate for Slot 2
+    delay(2000);   // Keep gate open for 2 seconds
+    S2.write(0);   // Close gate
+
+    } 
+    
+    else {
+        lcd.setCursor(0, 1);
+        lcd.print("Slot 2: Free   "); // Clear previous message
+        lcd.clear();
+    }   
+  
+  if (digitalRead(IR_entry) == HIGH) {
+    lcd.setCursor(0, 0);
+    lcd.print("Vehicle Entry");
+    S1.write(90);  // Open entry gate
+    delay(2000);   // Keep gate open for 2 seconds
+    S1.write(0);   // Close gate
+  }
+  // Check Exit IR
+  if (digitalRead(IR_exit) == HIGH) {
     lcd.setCursor(0, 1);
-    lcd.print("Slot 2: Free ");
+    lcd.print("Vehicle Exit");
+    S2.write(90);  // Open exit gate
+    delay(2000);   // Keep gate open for 2 seconds
+    S2.write(0);   // Close gate
   }
-if (digitalRead(IR_entry) == HIGH) {
-    S1.write(90); // Open entry gate
-  }
-else {
-    S1.write(pos); // Close entry gate
-  } 
-if (digitalRead(IR_exit) == HIGH) {
-    S2.write(pos+90); // Open exit gate
-  }
-else {
-    S2.write(0); // Close exit gate
-  }
-  delay(100); // Short delay for stability
+  // Add a small delay to avoid flickering
+  delay(1000); // Adjust as needed for readability
 }
